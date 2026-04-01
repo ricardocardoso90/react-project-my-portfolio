@@ -1,26 +1,22 @@
 .hero {
-  height: 300px;
-  margin-top: 150px;
-
   display: flex;
-
+  margin: 100px 0;
 
   .avatar {
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    img {
+    .avatar-image {
       width: 150px;
       height: 150px;
       border-radius: 50%;
-
       border: 2px solid #374151;
     }
 
-    p {
+    .avatar-title {
       font-size: 16px;
-      margin-top: 16px;
+      margin-top: 15px;
       color: #6b7280;
     }
   }
@@ -29,22 +25,90 @@
     margin-left: 40px;
 
     h1 {
-      font-size: 36px;
+      margin: 15px 0;
+
+      .hero-title {
+        color: #FFF;
+        font-size: 38px;
+        position: relative;
+        display: inline-block;
+      }
+
+      .hero-title::before {
+        top: 0;
+        left: 0;
+        color: #777;
+        position: absolute;
+        background: transparent;
+        content: "Ricardo Cardoso";
+        animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+      }
+
+      .hero-title::after {
+        top: 0;
+        left: 0;
+        position: absolute;
+        background: transparent;
+        content: "Ricardo Cardoso";
+        animation: glitch 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+      }
+
+      .cursor {
+        color: #fff;
+        font-size: 30px;
+        margin-left: 5px;
+        display: inline-block;
+        animation: blink 1.1s step-end infinite;
+      }
     }
 
     p {
-      margin: 15px 0;
       font-size: 18px;
       color: #6b7280;
+      margin-bottom: 15px;
     }
 
     span {
-      color: "#9ca3af";
-      font-size: "14px";
-      
-      display: "flex";
-      gap: "6px";
-      align-items: "center";
+      color: #9ca3af;
+      font-size: 14px;
+      display: flex;
+      gap: 6px;
+      align-items: center;
     }
+  }
+}
+
+
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+
+  25% {
+    transform: translate(-1px, 1px);
+  }
+
+  50% {
+    transform: translate(-1px, -1px);
+  }
+
+  75% {
+    transform: translate(1px, 1px);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
+
+@keyframes blink {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
   }
 }
