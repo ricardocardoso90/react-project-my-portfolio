@@ -3,15 +3,14 @@ import GuessWhat from '../images/guess-what.png';
 import DogDev from '../images/dog-dev.png';
 import DevMemory from '../images/dev-memory.png';
 import IgniteTimer from '../images/ignite-timer.png';
-
-import imageTest from '../images/image-test.png';
+import DogSocialNetwork from '../images/dog-social-network.png';
 
 export const CardsInfos = [
   {
     link: 'https://github.com/ricardocardoso90/node-project-get-a-pet',
     title: 'Get a Pet',
     image: GetAPet,
-    description: 'O Get A Pet é um projeto de adoção de animais para consolidar o desenvolvimento Full Stack com Node.js, MongoDB e React.',
+    description: 'O Get A Pet foi desenvolvido durante as aulas de Node.js, proporcionando um aprendizado sólido em áreas como criação de APIs REST, uso do MongoDB como banco de dados, gerenciamento de dados com Mongoose e testes de endpoints com Postman.',
   },
 
   {
@@ -43,9 +42,9 @@ export const CardsInfos = [
   },
 
   {
-    link: 'https://github.com/ricardocardoso90/react-native-project-ignite-teams',
-    title: 'Projeto 6',
-    image: imageTest,
-    description: 'Descrição do projeto 6, tecnologias utilizadas e outros detalhes relevantes.',
+    link: 'https://github.com/ricardocardoso90/react-project-dog-social-network',
+    title: 'Dog Social Network',
+    image: DogSocialNetwork,
+    description: 'A Dog Social Network, uma aplicação web que funciona como uma rede social exclusiva para amantes de cães. Nesta plataforma, os usuários podem criar suas contas, compartilhar fotos dos seus pets, além de curtir e comentar nas publicações de outros membros da comunidade.',
   },
 ];
