@@ -30,8 +30,8 @@ export default function Hero() {
           {" />"}
         </h1>
         <p>
-          Desenvolvedor Front-End, 36 anos de idade,
-          com foco em arquitetura escalável e desenvolvimento de soluções com propósito.
+          Desenvolvedor Front-End focado em React, com experiência na criação de interfaces modernas, 
+          responsivas e integradas a APIs, sempre priorizando performance e experiência do usuário.
         </p>
         <span>
           <MapPin
