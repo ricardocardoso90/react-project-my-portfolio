@@ -10,7 +10,7 @@ export default function Hero() {
           src="https://github.com/ricardocardoso90.png"
           alt=""
         />
-        <span className="avatar-title">
+        {/* <span className="avatar-title">
           <Circle
             size={14}
             fill="#10b981"
@@ -18,7 +18,7 @@ export default function Hero() {
             className="hero-circle"
           />
           ONLINE
-        </span>
+        </span> */}
       </div>
 
       <div className="description">
