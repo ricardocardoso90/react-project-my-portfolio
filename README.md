@@ -1,50 +1,122 @@
-# Olá, eu sou o Ricardo Cardoso! 👋
+# 💻 Meu Portfólio - React
 
-### Desenvolvedor Full-Stack | Especialista em Mobile & Frontend
+Este é o meu portfólio pessoal desenvolvido com **React.js**, onde apresento meus projetos, habilidades e um pouco sobre mim como desenvolvedor.
 
-Sou um desenvolvedor apaixonado por criar soluções com propósito, focado em **arquitetura escalável** e performance. Com 36 anos e uma trajetória sólida no ecossistema JavaScript, busco transformar desafios complexos em interfaces fluidas e backends robustos.
+## 🚀 Acesse o projeto
 
----
-
-## 🚀 Sobre Mim
-- 📍 Goiânia, Goiás.
-- 🛠️ Experiência em: React.js, TypeScript, SQL/NoSQL, e integração de APIs.
-- 🎯 Objetivo: Entregar código limpo, testável e de alto valor para o usuário final.
-- 💻 Foco atual: Desenvolvimento Mobile com **React Native** e sistemas distribuídos com **Node.js**.
+🔗 [Visualizar Portfólio](https://ricardodevpro.vercel.app/)
 
 ---
 
-## 🛠️ Tecnologias & Ferramentas
+## 📸 Preview
 
-| Frontend / Mobile | Backend | Ferramentas |
-| :--- | :--- | :--- |
-| React Native, React.js | Node.js, Express | Git, Docker |
-| TypeScript, JavaScript | SQLite, PostgreSQL | VS Code, Android Studio |
-| Styled Components, Tailwind | Axios, JSON Server | Figma, Filmora (Edição) |
+![Preview do Projeto](./public/preview.png)
 
 ---
 
-## 📂 Projetos em Destaque
+## 🧠 Sobre o projeto
 
-### [Ignite Gym](https://github.com/ricardocardoso90/ignite-gym)
-Aplicação robusta para gestão de treinos desenvolvida em **React Native**.
-- Autenticação JWT e Refresh Token.
-- Consumo de API Node.js e banco de dados SQLite.
-- Navegação complexa e estados globais.
+Este projeto foi criado com o objetivo de:
 
-### [Plant Manager](https://github.com/ricardocardoso90/plant-manager)
-App focado em auxílio no cuidado com plantas.
-- Notificações locais agendadas.
-- Armazenamento de dados offline.
-- Interface rica em detalhes e UX fluida.
+* Apresentar meus projetos de forma organizada
+* Demonstrar minhas habilidades técnicas
+* Servir como um cartão de visita online
+* Praticar e evoluir meus conhecimentos em React
 
 ---
 
-## 📫 Vamos nos conectar?
-- **WhatsApp:** [(62) 99841-8721](https://wa.me/5562998418721)
-- **E-mail:** [ricardodevpro@gmail.com](mailto:ricardodevpro@gmail.com)
-- **LinkedIn:** [linkedin.com/in/ricardocardoso90](https://www.linkedin.com/in/ricardocardoso90/)
+## 🛠️ Tecnologias utilizadas
+
+* React.js
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* Vite
+* Git e GitHub
 
 ---
 
-> "Desenvolvendo soluções escaláveis com foco em propósito."
+## 📂 Estrutura do projeto
+
+```bash
+src/
+├── components/
+├── pages/
+├── styles/
+├── assets/
+└── App.jsx
+```
+
+---
+
+## ⚙️ Como rodar o projeto
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/ricardocardoso90/react-project-my-portfolio.git
+```
+
+Acesse a pasta do projeto:
+
+```bash
+cd react-project-my-portfolio
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o projeto:
+
+```bash
+npm run dev
+```
+
+---
+
+## ✨ Funcionalidades
+
+* Layout moderno e responsivo
+* Seção de projetos com links
+* Informações sobre mim
+* Contato direto
+* Interface clean e minimalista
+
+---
+
+## 📌 Melhorias futuras
+
+* Adicionar animações
+* Integração com API (ex: GitHub)
+* Modo dark/light
+* Melhorar SEO
+
+---
+
+## 🤝 Contribuição
+
+Sinta-se à vontade para contribuir com melhorias:
+
+1. Fork o projeto
+2. Crie uma branch (`git checkout -b feature/minha-feature`)
+3. Commit (`git commit -m 'feat: minha nova feature'`)
+4. Push (`git push origin feature/minha-feature`)
+5. Abra um Pull Request
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
+
+---
+
+## 👨‍💻 Autor
+
+Feito por **Ricardo Cardoso**
+
+* GitHub: https://github.com/ricardocardoso90
+* LinkedIn: (adicione aqui)
