@@ -1,14 +1,14 @@
-# 💻 Meu Portfólio
+# Meu Portfólio
 
 Este é o meu portfólio pessoal desenvolvido com **React.js**, onde apresento meus projetos, habilidades e um pouco sobre mim como desenvolvedor.
 
-## 🚀 Acesse o projeto
+## Acesse o projeto
 
 🔗 [Visualizar Portfólio](https://ricardodevpro.vercel.app/)
 
 ---
 
-## 🧠 Sobre o projeto
+## Sobre o projeto
 
 Este projeto foi criado com o objetivo de:
 
@@ -20,7 +20,7 @@ Este projeto foi criado com o objetivo de:
 ---
 
 
-## ⚙️ Como rodar o projeto
+## Como rodar o projeto
 
 Instale as dependências:
 
@@ -36,7 +36,7 @@ npm run dev
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 * Layout moderno e responsivo
 * Seção de projetos com links
@@ -46,7 +46,7 @@ npm run dev
 
 ---
 
-## 📌 Melhorias futuras
+## Melhorias futuras
 
 * Adicionar animações
 * Integração com API (ex: GitHub)
@@ -55,13 +55,13 @@ npm run dev
 
 ---
 
-## 📄 Licença
+## Licença
 
 Este projeto está sob a licença MIT.
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 Feito por **Ricardo Cardoso**
 
