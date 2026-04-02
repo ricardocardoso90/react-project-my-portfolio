@@ -1,5 +1,5 @@
 import "./styles.css";
-import { MapPin, Circle } from "lucide-react";
+import { MapPin } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -11,12 +11,6 @@ export default function Hero() {
           alt="Imagem do perfil"
         />
         <span className="avatar-title">
-          {/* <Circle
-            size={14}
-            fill="#10b981"
-            stroke="none"
-            className="hero-circle"
-          /> */}
           Hello World!
         </span>
       </div>
