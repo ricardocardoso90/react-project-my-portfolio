@@ -1,3 +1,4 @@
+//IMPORTS DOS PROJETOS EM REACT.
 import CalcIMC from '../images/react/calc-imc.png';
 import DevMemory from '../images/react/dev-memory.png';
 import DogSocialNetwork from '../images/react/dog-social-network.png';
@@ -8,6 +9,14 @@ import IgniteFeed from '../images/react/ignite-feed.png';
 import IgniteTimer from '../images/react/ignite-timer.png';
 import RocketNotes from '../images/react/rocket-notes.png';
 import TokenLab from '../images/react/token-lab.png';
+
+//IMPORTS DOS PROJETOS EM JAVASCRIPT.
+import AnalogClock from '../images/javascript/analog-clock.png';
+import Battery from '../images/javascript/battery.png';
+import DogDev from '../images/javascript/dog-dev.png';
+import HairDay from '../images/javascript/hair-day.png';
+import InstaDev from '../images/javascript/insta-dev.png';
+import MemoryGame from '../images/javascript/memory-game.png';
 
 export const CardsInfos = [
   //AQUI VOU COLOCAR OS PROJETOS FEITOS EM REACT.
@@ -90,5 +99,55 @@ export const CardsInfos = [
     image: TokenLab,
     category: 'React',
     description: 'Projeto front‑end desenvolvido com React, focado na utilização de formulários e gerenciamento de entradas de dados com React Hook Form e Yup para validação...',
+  },
+
+  //AQUI VOU COLOCAR OS PROJETOS FEITOS EM JAVASCRIPT.
+
+  {
+    link: 'https://github.com/ricardocardoso90/javascript-project-analog-clock',
+    title: 'Analog Clock',
+    image: AnalogClock,
+    category: 'JavaScript',
+    description: 'Este projeto faz parte do desafio "7 projetos em 7 dias" e consiste em uma interface interativa que simula um Relógio Analógico, permitindo acompanhar o horário...',
+  },
+
+  {
+    link: 'https://github.com/ricardocardoso90/javascript-project-battery',
+    title: 'Battery',
+    image: Battery,
+    category: 'JavaScript',
+    description: 'Este projeto foi criado durante o desafio 7 projetos em 7 dias, e consiste em uma interface interativa que simula uma bateria. É possível tocar os sons utilizando o teclado...',
+  },
+
+  {
+    link: 'https://github.com/ricardocardoso90/javascript-project-dog-dev',
+    title: 'Dog Dev',
+    image: DogDev,
+    category: 'JavaScript',
+    description: 'O DogDev é uma landing page que simula uma empresa fictícia de alimentos para cachorros. A interface traz diversas seções interessantes: vitrine de produtos...',
+  },
+
+  {
+    link: 'https://github.com/ricardocardoso90/javascript-project-hair-day',
+    title: 'Hair Day',
+    image: HairDay,
+    category: 'JavaScript',
+    description: 'O Hair Day, uma aplicação web de agendamento de atendimentos criada com JavaScript, HTML e CSS. O projeto permite que usuários selecionem uma data...',
+  },
+
+  {
+    link: 'https://github.com/ricardocardoso90/javascript-project-insta-dev',
+    title: 'Insta Dev',
+    image: InstaDev,
+    category: 'JavaScript',
+    description: 'O InstaDev faz parte do desafio “10 Projetos em HTML, CSS e JavaScript” e é totalmente focado no frontend - sem backend, mas cheio de detalhes legais pra treinar bastante coisa...',
+  },
+
+  {
+    link: 'https://github.com/ricardocardoso90/javascript-project-memory-game',
+    title: 'Memory Game',
+    image: MemoryGame,
+    category: 'JavaScript',
+    description: 'Memory Game - um clássico jogo de cartas da memória - como uma aplicação web interativa usando HTML5, CSS3 e JavaScript (ES6+), com layout responsivo e regras de jogo completas...',
   },
 ];
