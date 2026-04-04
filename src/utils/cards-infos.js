@@ -33,6 +33,11 @@ import TypewriterEffect from '../images/react-native/typewriter-effect.jpg';
 import UserRegistration from '../images/react-native/user-registration.jpg';
 import RNForm from '../images/react-native/rnform.jpg';
 import PlantManager from '../images/react-native/plant-manager.jpg';
+import InterfaceNotion from '../images/react-native/interface-notion.jpg';
+import GamePlay from '../images/react-native/game-play.jpg';
+import BoardingPass from '../images/react-native/boardingpass.jpg';
+import AnimatedMenu from '../images/react-native/animated-menu.jpg';
+import IgniteTeams from '../images/react-native/ignite-teams.jpg';
 
 export const CardsInfos = [
   //AQUI VOU COLOCAR OS PROJETOS FEITOS EM REACT.
@@ -265,5 +270,45 @@ export const CardsInfos = [
     image: PlantManager,
     category: 'React Native',
     description: 'O Plant Manager é um app mobile criado para facilitar a vida de quem ama plantas, ajudando na organização e nos cuidados diários de forma prática, intuitiva e bonita...',
+  },
+
+  {
+    link: 'https://github.com/ricardocardoso90/react-native-project-interface-notion',
+    title: 'Interface Notion',
+    image: InterfaceNotion,
+    category: 'React Native',
+    description: 'Dessa vez, criei uma interface inspirada no Notion, utilizando React Native, Expo e Expo Router. A ideia foi explorar e colocar em prática conceitos importantes do desenvolvimento mobile...',
+  },
+
+  {
+    link: 'https://github.com/ricardocardoso90/react-native-project-game-play',
+    title: 'Game Play',
+    image: GamePlay,
+    category: 'React Native',
+    description: 'O Game Play é um app mobile focado na organização de jogatinas com os amigos, onde é possível criar e gerenciar partidas de games. O app conta com integração com o Discord, pra galera se comunicar melhor...',
+  },
+
+  {
+    link: 'https://github.com/ricardocardoso90/react-native-project-boardingpass',
+    title: 'Boarding Pass',
+    image: BoardingPass,
+    category: 'React Native',
+    description: 'Neste projeto, que simula uma aplicação de passagens aéreas, onde é possível a geração dinâmica de QR Code para os cartões de embarque, e também a utilização de SVG para criar detalhes visuais no bilhete, proporcionando um design moderno e interativo...',
+  },
+
+  {
+    link: 'https://github.com/ricardocardoso90/react-native-project-animated-menu',
+    title: 'Animated Menu',
+    image: AnimatedMenu,
+    category: 'React Native',
+    description: 'Neste projeto, que simula uma aplicação de passagens aéreas, onde é possível a geração dinâmica de QR Code para os cartões de embarque, e também a utilização de SVG para criar detalhes visuais no bilhete, proporcionando um design moderno e interativo...',
+  },
+
+  {
+    link: 'https://github.com/ricardocardoso90/react-native-project-ignite-teams',
+    title: 'Ignite Teams',
+    image: IgniteTeams,
+    category: 'React Native',
+    description: 'A proposta do app, Ignite Teams, é simples, mas muito útil: gerenciar grupos e participantes em atividades - como jogos, equipes de trabalho ou qualquer dinâmica em grupo. Cada grupo possui seus próprios jogadores, e tudo é salvo localmente no dispositivo com o uso do AsyncStorage...',
   },
 ];
