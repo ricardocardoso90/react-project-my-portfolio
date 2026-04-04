@@ -38,6 +38,9 @@ import GamePlay from '../images/react-native/game-play.jpg';
 import BoardingPass from '../images/react-native/boardingpass.jpg';
 import AnimatedMenu from '../images/react-native/animated-menu.jpg';
 import IgniteTeams from '../images/react-native/ignite-teams.jpg';
+import NavigationReanimated from '../images/react-native/navigation-reanimated.jpg';
+import ExpoMaps from '../images/react-native/expo-maps.jpg';
+import ConfettiReanimatedSkia from '../images/react-native/confetti-reanimated-skia.jpg';
 
 export const CardsInfos = [
   //AQUI VOU COLOCAR OS PROJETOS FEITOS EM REACT.
@@ -310,5 +313,29 @@ export const CardsInfos = [
     image: IgniteTeams,
     category: 'React Native',
     description: 'A proposta do app, Ignite Teams, é simples, mas muito útil: gerenciar grupos e participantes em atividades - como jogos, equipes de trabalho ou qualquer dinâmica em grupo. Cada grupo possui seus próprios jogadores, e tudo é salvo localmente no dispositivo com o uso do AsyncStorage...',
+  },
+
+  {
+    link: 'https://github.com/ricardocardoso90/react-native-project-drawer-navigation-reanimated',
+    title: 'Navigation Reanimated',
+    image: NavigationReanimated,
+    category: 'React Native',
+    description: 'Neste projeto, implementei um menu lateral animado utilizando React Native, Drawer Navigation e Reanimated, criando um efeito de perspectiva durante a abertura do menu...',
+  },
+
+  {
+    link: 'https://github.com/ricardocardoso90/react-native-project-expo-maps',
+    title: 'Expo Maps',
+    image: ExpoMaps,
+    category: 'React Native',
+    description: 'O projeto oferece duas funcionalidades principais: exibir o mapa diretamente na aplicação com a biblioteca react-native-maps, ou redirecionar o usuário para o aplicativo de mapas nativo (Google Maps ou Apple Maps)...',
+  },
+
+  {
+    link: 'https://github.com/ricardocardoso90/react-native-project-confetti-reanimated-skia',
+    title: 'Confetti Reanimated Skia',
+    image: ConfettiReanimatedSkia,
+    category: 'React Native',
+    description: 'Nesta interface, foi utilizado a biblioteca react-native-fast-confetti, integrada com Reanimated e Skia, para implementar animação de confetes em sua aplicação...',
   },
 ];
