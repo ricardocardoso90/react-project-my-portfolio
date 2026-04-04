@@ -41,6 +41,8 @@ import IgniteTeams from '../images/react-native/ignite-teams.jpg';
 import NavigationReanimated from '../images/react-native/navigation-reanimated.jpg';
 import ExpoMaps from '../images/react-native/expo-maps.jpg';
 import ConfettiReanimatedSkia from '../images/react-native/confetti-reanimated-skia.jpg';
+import ReanimatedSwipeable from '../images/react-native/reanimated-swipeable.jpg';
+import FilterClickup from '../images/react-native/filter-clickup.jpg';
 
 export const CardsInfos = [
   //AQUI VOU COLOCAR OS PROJETOS FEITOS EM REACT.
@@ -337,5 +339,21 @@ export const CardsInfos = [
     image: ConfettiReanimatedSkia,
     category: 'React Native',
     description: 'Nesta interface, foi utilizado a biblioteca react-native-fast-confetti, integrada com Reanimated e Skia, para implementar animação de confetes em sua aplicação...',
+  },
+
+  {
+    link: 'https://github.com/ricardocardoso90/react-native-project-reanimated-swipeable',
+    title: 'Reanimated Swipeable',
+    image: ReanimatedSwipeable,
+    category: 'React Native',
+    description: 'Nesta interface, foi utilizado o componente Swipeable da biblioteca react-native-gesture-handler, integrado ao Reanimated, para implementar a funcionalidade de swipe em uma lista de contatos...',
+  },
+
+  {
+    link: 'https://github.com/ricardocardoso90/react-native-project-filter-clickup',
+    title: 'Filter Clickup',
+    image: FilterClickup,
+    category: 'React Native',
+    description: 'Recentemente, assisti a uma das aulas onde foi ensinado a criar o efeito de transição de fundo inspirado no aplicativo ClickUp, que ao alternar entre os menus, a cor de fundo muda dinamicamente conforme o item selecionado (como favorites, por exemplo)...',
   },
 ];
