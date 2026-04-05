@@ -45,9 +45,9 @@
   }
 
   .contacts .contacts-container a {
-    word-break: break-all; /* Se o e-mail for muito longo, ele quebra a linha em vez de vazar */
     display: block;
-    max-width: 100%; /* Garante que o link respeite o container pai */
-    font-size: 14px; /* Uma leve redução ajuda muito no espaço lateral */
+    max-width: 100%;
+    font-size: 14px;
+    word-break: break-all;
   }
 }
