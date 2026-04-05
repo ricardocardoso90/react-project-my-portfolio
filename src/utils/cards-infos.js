@@ -29,9 +29,9 @@ import Tasks from '../images/node/tasks.png';
 
 //IMPORTS DOS PROJETOS EM REACT NATIVE.
 import IgniteGym from '../images/react-native/ignite-gym.png';
-import TypewriterEffect from '../images/react-native/typewriter-effect.jpg';
-import UserRegistration from '../images/react-native/user-registration.jpg';
-import RNForm from '../images/react-native/rnform.jpg';
+import TypewriterEffect from '../images/react-native/typewriter-effect.png';
+import UserRegistration from '../images/react-native/user-registration.png';
+import RNForm from '../images/react-native/rnform.png';
 import PlantManager from '../images/react-native/plant-manager.png';
 import InterfaceNotion from '../images/react-native/interface-notion.png';
 import GamePlay from '../images/react-native/game-play.png';
@@ -41,7 +41,7 @@ import IgniteTeams from '../images/react-native/ignite-teams.png';
 import DrawerNavigationReanimated from '../images/react-native/drawer-navigation-reanimated.png';
 import ExpoMaps from '../images/react-native/expo-maps.png';
 import ConfettiReanimatedSkia from '../images/react-native/confetti-reanimated-skia.png';
-import ReanimatedSwipeable from '../images/react-native/reanimated-swipeable.jpg';
+import ReanimatedSwipeable from '../images/react-native/reanimated-swipeable.png';
 import FilterClickup from '../images/react-native/filter-clickup.png';
 
 export const CardsInfos = [
