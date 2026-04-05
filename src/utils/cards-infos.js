@@ -28,21 +28,21 @@ import Toughts from '../images/node/toughts.png';
 import Tasks from '../images/node/tasks.png';
 
 //IMPORTS DOS PROJETOS EM REACT NATIVE.
-import IgniteGym from '../images/react-native/ignite-gym.jpg';
+import IgniteGym from '../images/react-native/ignite-gym.png';
 import TypewriterEffect from '../images/react-native/typewriter-effect.jpg';
 import UserRegistration from '../images/react-native/user-registration.jpg';
 import RNForm from '../images/react-native/rnform.jpg';
 import PlantManager from '../images/react-native/plant-manager.jpg';
 import InterfaceNotion from '../images/react-native/interface-notion.jpg';
-import GamePlay from '../images/react-native/game-play.jpg';
-import BoardingPass from '../images/react-native/boardingpass.jpg';
-import AnimatedMenu from '../images/react-native/animated-menu.jpg';
+import GamePlay from '../images/react-native/game-play.png';
+import BoardingPass from '../images/react-native/boardingpass.png';
+import AnimatedMenu from '../images/react-native/animated-menu.png';
 import IgniteTeams from '../images/react-native/ignite-teams.jpg';
-import NavigationReanimated from '../images/react-native/navigation-reanimated.jpg';
-import ExpoMaps from '../images/react-native/expo-maps.jpg';
-import ConfettiReanimatedSkia from '../images/react-native/confetti-reanimated-skia.jpg';
+import DrawerNavigationReanimated from '../images/react-native/drawer-navigation-reanimated.png';
+import ExpoMaps from '../images/react-native/expo-maps.png';
+import ConfettiReanimatedSkia from '../images/react-native/confetti-reanimated-skia.png';
 import ReanimatedSwipeable from '../images/react-native/reanimated-swipeable.jpg';
-import FilterClickup from '../images/react-native/filter-clickup.jpg';
+import FilterClickup from '../images/react-native/filter-clickup.png';
 
 export const CardsInfos = [
   //AQUI VOU COLOCAR OS PROJETOS FEITOS EM REACT.
@@ -319,8 +319,8 @@ export const CardsInfos = [
 
   {
     link: 'https://github.com/ricardocardoso90/react-native-project-drawer-navigation-reanimated',
-    title: 'Navigation Reanimated',
-    image: NavigationReanimated,
+    title: 'D-Navigation Reanimated',
+    image: DrawerNavigationReanimated,
     category: 'React Native',
     description: 'Neste projeto, implementei um menu lateral animado utilizando React Native, Drawer Navigation e Reanimated, criando um efeito de perspectiva durante a abertura do menu...',
   },
