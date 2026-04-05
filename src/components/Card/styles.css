@@ -43,30 +43,28 @@
   }
 }
 
-/* Responsividade para card.css */
 @media (max-width: 768px) {
   .card {
-    padding: 15px; /* Reduz levemente o preenchimento interno */
-    margin-bottom: 10px; /* Garante um respiro entre um card e outro */
-    
-    /* Desativa o deslocamento vertical no touch para evitar saltos na tela */
+    padding: 15px;
+    margin-bottom: 10px;
+
     &:hover {
-      transform: none; 
+      transform: none;
       box-shadow: 0 4px 12px rgba(59, 130, 246, 0.1);
     }
   }
 
   .card .card-title {
-    font-size: 17px; /* Título levemente menor */
+    font-size: 17px;
   }
 
   .card .card-image {
-    max-height: 200px; /* No mobile, podemos aumentar a altura da imagem já que ela terá mais largura */
+    max-height: 200px;
     margin-top: 15px;
   }
 
   .card p {
-    font-size: 13px; /* Pequeno ajuste no texto descritivo */
-    line-height: 1.5; /* Melhora a legibilidade do parágrafo */
+    font-size: 13px;
+    line-height: 1.5;
   }
 }
