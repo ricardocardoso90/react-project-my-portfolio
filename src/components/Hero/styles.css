@@ -146,32 +146,24 @@
 
   .hero .description h1 {
     margin: 10px 0;
-    /* Reduz a margem vertical para ganhar espaço */
     width: 100%;
     display: flex;
     justify-content: center;
-    /* Garante que o H1 esteja centralizado */
   }
 
   .hero .description h1 .hero-title {
-    /* Ajuste dinâmico: 6vw faz a fonte se adaptar à largura da tela */
-    /* clamp garante que ela não fique menor que 20px nem maior que 24px */
     font-size: clamp(20px, 6vw, 24px);
 
     white-space: nowrap;
-    /* Proíbe a quebra de linha terminantemente */
-    letter-spacing: -0.5px;
-    /* Aperta levemente as letras para ganhar espaço */
+    /* letter-spacing: -0.5px; */
     display: inline-block;
   }
 
-  /* Sincroniza os efeitos de Glitch com o novo tamanho dinâmico */
   .hero .description h1 .hero-title::before,
   .hero .description h1 .hero-title::after {
-    font-size: inherit;
-    /* Herda o tamanho exato do elemento pai (clamp) */
-    width: 100%;
     left: 0;
+    width: 100%;
+    font-size: inherit;
   }
 
   .hero .description h1 .cursor {
