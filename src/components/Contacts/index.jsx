@@ -7,6 +7,14 @@ export default function Contacts() {
 
       <div className="contacts-container">
         <a
+          href="./curriculo.pdf"
+          className="contacts-info"
+          download="currículo.pdf"
+        >
+          Download CV (.pdf)
+        </a>
+
+        <a
           href="https://wa.me/5562998418721"
           className="contacts-info"
           target="_blank"
@@ -14,12 +22,14 @@ export default function Contacts() {
         >
           WhatsApp: (62) 99841-8721
         </a>
+
         <a
           href="mailto:ricardodevpro@gmail.com"
           className="contacts-info"
         >
           E-mail: ricardocardoso.dev.br@gmail.com
         </a>
+
         <a
           href="https://github.com/ricardocardoso90"
           className="contacts-info"
@@ -28,6 +38,7 @@ export default function Contacts() {
         >
           GitHub: https://github.com/ricardocardoso90
         </a>
+
         <a
           href="https://www.linkedin.com/in/ricardocardoso90/"
           className="contacts-info"
