@@ -40,6 +40,18 @@
     margin-top: 10px;
     color: #6b7280;
     font-size: 14px;
+    line-height: 1.5rem;
+    
+    display: -webkit-box !important;
+
+    -webkit-line-clamp: 4; 
+    -webkit-box-orient: vertical !important;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+  
+    height: 4.5rem; 
+    max-height: 4.5rem;
   }
 }
 

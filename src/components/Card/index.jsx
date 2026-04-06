@@ -9,11 +9,8 @@ export default function Card({ link, title, image, description }) {
       className='card'
     >
       <span className='card-title'>{title}</span>
-      <img
-        src={image}
-        className='card-image'
-        alt="Descrição da imagem" />
-      <p>{description}</p>
+      <img src={image} className='card-image' alt={`Projeto ${title}`} />
+      <p className='card-description'>{description}</p>
     </a>
-  )
-};
+  );
+}
