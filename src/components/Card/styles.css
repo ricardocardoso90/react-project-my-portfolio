@@ -41,17 +41,14 @@
     color: #6b7280;
     font-size: 14px;
     line-height: 1.5rem;
-    
+
     display: -webkit-box !important;
 
-    -webkit-line-clamp: 4; 
+    -webkit-line-clamp: 5;
     -webkit-box-orient: vertical !important;
-    
+
     overflow: hidden;
     text-overflow: ellipsis;
-  
-    height: 4.5rem; 
-    max-height: 4.5rem;
   }
 }
 
@@ -78,20 +75,13 @@
   .card p {
     font-size: 13px;
     line-height: 1.5;
-    
-    /* Mantendo o limite de 3 linhas no mobile */
+
     display: -webkit-box !important;
-    -webkit-line-clamp: 3; 
-    
-    /*! autoprefixer: ignore next */
+
+    -webkit-line-clamp: 5;
     -webkit-box-orient: vertical !important;
-    
+
     overflow: hidden;
     text-overflow: ellipsis;
-
-    /* Ajuste de altura para 3 linhas no mobile (1.5 * 13px * 3 linhas ≈ 58px) */
-    /* Usar 'em' ou 'rem' ajuda a manter a proporção */
-    height: 4.5em; 
-    max-height: 4.5em;
   }
 }
