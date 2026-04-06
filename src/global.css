@@ -4,24 +4,27 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body,
 #root {
-  height: 100%;
+  min-height: 100%;
 }
 
 body {
   font-family: "Space Mono", monospace;
-}
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
-body {
   background: linear-gradient(270deg,
       #050507,
       #0a0a12,
       #111827,
       #020617,
       #0f172a);
-
   background-size: 600% 600%;
   animation: gradientMove 20s ease infinite;
 
@@ -47,25 +50,20 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-
   background:
     radial-gradient(circle at 25% 30%, rgba(59, 130, 246, 0.08), transparent 40%),
     radial-gradient(circle at 75% 70%, rgba(139, 92, 246, 0.06), transparent 40%);
-
   filter: blur(100px);
   z-index: -1;
-}
-
-html {
-  scroll-behavior: smooth;
+  pointer-events: none;
 }
 
 @media (max-width: 768px) {
   body {
     font-size: 14px;
-    background-size: 300% 300%;
-    animation: gradientMove 15s ease infinite;
+    background-size: 400% 400%;
   }
+
   body::before {
     opacity: 0.8;
     filter: blur(60px);
