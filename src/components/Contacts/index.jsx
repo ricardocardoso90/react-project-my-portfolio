@@ -24,7 +24,7 @@ export default function Contacts() {
         </a>
 
         <a
-          href="mailto:ricardodevpro@gmail.com"
+          href="mailto:ricardocardoso.dev.br@gmail.com"
           className="contacts-info"
         >
           E-mail: ricardocardoso.dev.br@gmail.com
