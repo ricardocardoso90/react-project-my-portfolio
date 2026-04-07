@@ -1,5 +1,5 @@
 import './App.css';
-import './global.css';
+import './styles/global.css';
 
 import Hero from './components/Hero';
 import Projects from './components/Projects';
